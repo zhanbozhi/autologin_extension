@@ -1,0 +1,75 @@
+.modal-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.4);
+}
+
+.modal-view {
+    background-color: white;
+    border-radius: 5px;
+    min-width: 15em;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-msg {
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 5px;
+}
+
+.modal-buttons {
+    text-align: right;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.normal-button, .danger-button {
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    border-radius: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.normal-button {
+    background-color:rgb(191, 197, 201);
+}
+
+.normal-button:hover {
+    background-color:rgb(165, 172, 177);
+}
+
+.danger-button {
+    background-color: rgb(236, 97, 97);
+}
+
+.danger-button:hover {
+    background-color: rgb(236, 72, 72);
+}
+
+
+

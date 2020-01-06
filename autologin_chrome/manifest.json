@@ -1,0 +1,23 @@
+{
+    "name": "autologin",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "自动登陆，自动注销",
+    "icons": {
+        "16": "src/img/icon_16.png",
+        "48": "src/img/icon_48.png",
+        "128": "src/img/icon_128.png"
+    },
+    "background": {
+		"scripts": ["background/background.js"],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_icon": "src/img/icon_48.png",	
+		"default_title": "autologin",
+		"default_popup": "popup/popup.html"
+	},
+	"content_scripts": [
+    ],
+    "permissions": ["tabs", "cookies", "*://*/*", "storage"]
+}

@@ -1,0 +1,180 @@
+html {
+    font-size: 13px;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 25em;
+    max-height: 30em;
+}
+
+.account {
+    margin: 1em;
+}
+
+.add-button {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.75em 0.75em;
+    border-radius: 0.75em;
+    background-color: white;
+    position: absolute;
+    right: 1em;
+}
+
+.add-button:hover, .more-button:hover {
+    background-color: rgb(182, 209, 200);
+}
+
+.more-button {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.75em 0.75em;
+    position: absolute;
+    right: 1em; 
+    margin-top: 1em;
+    border-radius: 0.75em;
+}
+
+.login-button {
+    width: 4em;
+    height: 2em;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-top: 1em;
+}
+
+.logout-button {
+    position: absolute;
+    right: 1em;
+    width: 4em;
+    height: 1.5em;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.blank-view {
+    text-align: center;
+    margin: 1em;
+}
+
+.description {
+    white-space:pre-wrap; 
+    word-wrap:break-word;
+}
+
+.line {
+    padding: 0;
+    margin: 10px 0;
+    height: 1px;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.nav {
+    height: 3em;
+    width: 100%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    margin-bottom: 1em;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.back-button {
+   width: 1.5em;
+   height: 1.5em;
+   margin: 0.75em 0.75em;
+}
+
+.title {
+    font-size: 1em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    resize: none;
+    height: 5em;
+    font-size: 1em;
+}
+
+.input-all {
+    border-color: rgb(112, 181, 204);
+    border-width: 1px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+}
+
+.mul-line-input {
+    vertical-align: top;
+}
+
+.one-line-input {
+    height: 2em;
+    font-size: 1em;
+}
+
+.input-label {
+    padding-right: 1em;
+}
+
+.part {
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+.buttons {
+    margin-top: 2em;
+}
+
+.half-button, .full-button {
+    height: 3em;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+.half-button {
+    width: 50%;
+}
+
+.full-button {
+    width: 100%;
+}
+
+.delete-button, .logout-button {
+    background-color: rgb(236, 97, 97);
+}
+
+.delete-button:hover, .logout-button:hover {
+    background-color: rgb(236, 72, 72);
+}
+
+.save-button, .login-button {
+    background-color: rgb(114, 114, 230);
+}
+
+.save-button:hover, .login-button:hover {
+    background-color: rgb(93, 93, 241);
+}
